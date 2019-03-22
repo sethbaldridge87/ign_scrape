@@ -1,0 +1,14 @@
+<div class="container">
+    <a href="/saved"><button id="view_archive">View Saved</button></a>
+    <div class="row">
+        {{#each articles }}
+            <div class="review">
+                <h2>{{title}}</h2>
+                <h5><span>{{score}}</span></h5>
+                <a href="https://ign.com{{link}}"><p>ign.com{{link}}</p></a><br><br>
+                <button class="articleSave">Save Article</button>
+                <br>
+            </div>
+        {{/each}}
+    </div>
+</div>

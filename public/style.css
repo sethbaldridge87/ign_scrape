@@ -1,0 +1,32 @@
+body {
+    color: #fff;
+    background-color: #353535;
+}
+#greeter {
+    background-color: #5b0010;
+    text-align: center;
+    margin-top: -41px;
+    padding: 10px;
+}
+span {
+    background-color: #5b0010;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 25px;
+}
+#view_archive, #return_home {
+    border-radius: 15px;
+    background-color: #004d77;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+.row input:focus {
+    background-color: #fff;
+}
+p {
+    margin-top: 40px;
+}
+h2, h3 {
+    margin-bottom: 40px;
+}

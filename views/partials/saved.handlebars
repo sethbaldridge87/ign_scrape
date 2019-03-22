@@ -1,0 +1,26 @@
+<div class="container">
+    <a href="/"><button id="return_home">Return home</button></a>
+    <div class="row">
+        {{#each archive}}
+            <h2>{{name}}</h2>
+            <hr>
+            {{#each reviews}}
+                <div class="article" data-id={{_id}}>
+                    <h3>{{this.title}}</h3>
+                    <span>{{this.score}}</span>
+                    {{#each comments}}
+                        <div>
+                            <p>{{{this}}}</p>
+                            <button class="delete_comment">Delete Comment</button>
+                        </div>
+                    {{/each}}
+                    <h5>Leave a comment!</h5>
+                    <div class="row">
+                        <input type="text" class="comment">
+                        <button class="submit_comment">Submit</button>
+                    </div>
+                </div>
+            {{/each}}
+        {{/each}}
+    </div>
+</div>
