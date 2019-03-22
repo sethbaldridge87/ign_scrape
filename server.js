@@ -15,7 +15,8 @@ app.set("view engine", "handlebars");
 
 var databaseUrl = "IGN";
 var collections = ["reviews","comments"];
-mongoose.connect("mongodb://localhost/ign", { useNewUrlParser: true });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 // var db = mongojs(databaseUrl, collections);
 var db = require("./models");
 
