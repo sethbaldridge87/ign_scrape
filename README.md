@@ -2,6 +2,8 @@ Scrapes articles from video game review website IGN.com and saves them to a Mong
 
 Uses axios, handlebars.js, node.js, mongoose, and mongoDB.
 
+Check it out here: https://ign-news-scraper.herokuapp.com/
+
 ![alt text](https://raw.githubusercontent.com/sethbaldridge87/ign_scrape/master/ign1.PNG)
 
 ![alt text](https://raw.githubusercontent.com/sethbaldridge87/ign_scrape/master/ign2.PNG)
